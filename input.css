@@ -5,6 +5,10 @@ background-color: rgb(202, 182, 205);
 text-align: center;
 }
 
+h1 {
+  font-size: 20px;
+}
+
 #text {
   font-size:20px;
 }
