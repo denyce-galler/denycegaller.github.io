@@ -80,14 +80,21 @@ body {
   }
   
   .item-1 {
-    padding: 20px 200px 20px 100px;
+    /* padding: 20px 200px 20px 100px; */
+    flex-grow:5;
+    margin:auto;
+    padding-left:50px;
+    padding-top:50px;
+    padding-bottom:50px;
+  }
+  
+  .item-2 {
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-right:50px;
     flex-grow:1;
     margin:auto;
   }
-  
-  /* .item-2 {
-    padding-right:
-  } */
   
   .container-header {
     display:flex;
@@ -138,7 +145,7 @@ body {
   
   .container-3 {
     display:flex;
-    align-items:baseline;
+    align-items:center;
     flex-direction: row;
     background-color:rgb(54, 53, 55);
     gap: 1em;
@@ -164,4 +171,32 @@ body {
   .project-nav a:active {
     background-color:#f2f2f2;
   }
+
+  .container-4 {
+    display:flex;
+    align-items:center;
+    flex-direction: row;
+    /* background-color:red; */
+    background-color:rgb(54, 53, 55);
+    gap: 1em;
+    color:#f2f2f2;
+    padding-top:40px;
+    padding-bottom: 70px;
+  }
   
+  .item-7 {
+    flex-grow: 1;
+    margin-left:20px;
+    /* align-self: start; */
+    background-color:rgb(127, 194, 155);
+    padding:100px;
+    width:auto;
+    height:auto;
+  }
+  .item-8 {
+      /* align-self: start; */
+      padding-top:0;
+      flex-grow:5;
+      margin:50px;
+      padding-left: 25px;
+  }
