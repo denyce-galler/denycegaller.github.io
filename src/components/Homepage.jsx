@@ -191,71 +191,111 @@ const Homepage = () => {
             className="icons"
           />
         </div>
-        <div id="projects">
+        <div className="container-8">
           <h1 className="projects-heading">Projects</h1>
-          <div className="project-one">
-            <div className="description">
-              <h2 className="project-title-one">Pocket Doro</h2>
-              <p className="project-p">Pomodoro timer</p>
-              <ul className="project-p">
+          <p className="project-title">Pocket Doro</p>
+          <div className="project-photo-container">
+            <img
+              src="/pocketdoro.png"
+              alt="pocketdoro screenshot"
+              width="600"
+              height="350"
+              className="project-photo"
+            />
+            <video
+              className="project-photo"
+              width="600"
+              height="350"
+              controls
+              autoplay
+              muted
+            >
+              <source src="/Screen Record 2.mov" type="video/mov" />
+            </video>
+          </div>
+          <div className="project-description">
+            <ul>
+              <li>Group project from Dev Academy</li>
+              <li>Pomodoro timer - made for studying.</li>
+              <li>
+                See source code
+                <a
+                  href="https://github.com/whai-2023/Pocket-Doro"
+                  className="project-links"
+                >
+                  here
+                </a>
+              </li>
+              <li>
+                Watch a video of the app or watch it
+                <a
+                  href="https://www.youtube.com/watch?v=OWKpgauWFA4"
+                  className="project-links"
+                >
+                  here
+                </a>
+                for the demo of the app
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <p className="project-title-two">Recipe Book</p>
+            <div className="project-photo-container-two">
+              <img
+                src="/homepage.png"
+                alt="pocketdoro screenshot"
+                width="600"
+                height="350"
+                className="project-photo"
+              />
+              <img
+                src="/recipe.png"
+                alt="recipe-book screenshot"
+                width="600"
+                height="350"
+                className="project-photo"
+              />
+              <img
+                src="/add-recipe.png"
+                alt="recipe-book screenshot"
+                width="600"
+                height="350"
+                className="project-photo"
+              />
+              <img
+                src="/recipes-glossary.png"
+                alt="recipe-book screenshot"
+                width="600"
+                height="350"
+                className="project-photo"
+              />
+            </div>
+            <div className="project-description">
+              <ul>
+                <li>Ongoing personal project</li>
+                <li>Website design made with Figma</li>
                 <li>
-                  Currently work in progress for deployment. Watch
+                  Recipe Book - made for storing recipes you've made that you
+                  love to keep making!
+                </li>
+                <li>
+                  See source code
                   <a
-                    href="https://www.youtube.com/watch?v=OWKpgauWFA4"
+                    href="https://github.com/denyce-galler/Recipe-Book"
                     className="project-links"
                   >
                     here
                   </a>
-                  for the demo of the app
                 </li>
               </ul>
-              <a
-                href="https://github.com/whai-2023/Pocket-Doro"
-                className="project-links"
-              >
-                See source code
-              </a>
             </div>
-            <img
-              src="/pocketdoro.png"
-              alt="pocketdoro screenshot"
-              width="600"
-              height="350"
-              className="project-photo"
-            />
           </div>
         </div>
-        <div id="projects">
-          <div className="project-one">
-            <div className="description">
-              <h2 className="project-title-one">Recipe-Book</h2>
-              <p className="project-p">Pomodoro timer</p>
-              <ul className="project-p">
-                <li>
-                  Ongoing project. An app that allows you to store your
-                  favourite recipes Watch
-                </li>
-              </ul>
-              <a
-                href="https://github.com/whai-2023/Pocket-Doro"
-                className="project-links"
-              >
-                See source code
-              </a>
-            </div>
-            <img
-              src="/pocketdoro.png"
-              alt="pocketdoro screenshot"
-              width="600"
-              height="350"
-              className="project-photo"
-            />
-          </div>
-        </div>
+        <footer>
+          <p className="footer-text">©️ Denyce Galler 2025</p>
+        </footer>
       </body>
-      <footer>
-        <p>hello</p>
-      </footer>
     </>
   )
 }
