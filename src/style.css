@@ -412,9 +412,24 @@ footer{
     position: fixed;
     padding-bottom: 10px;
     z-index: 99999;
-    /* isolation: isolate; */
+    isolation: isolate;
     overflow: hidden;
+    padding-left: 0px;
   }
+
+  /* .nav-bar{
+    display: flex;
+    background-color:#fbfbf3;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    padding-left:20px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    z-index: 99999;
+    isolation: isolate;
+  } */
 
   .a-nav-bar{
     font-size: 10px;
@@ -430,6 +445,7 @@ footer{
 
   .name{
     font-size: 20px;
+    margin-right:5px;
   }
 
   .welcome{
