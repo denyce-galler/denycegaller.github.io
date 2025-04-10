@@ -6,7 +6,7 @@ Built with React, HTML and CSS.
 - 📱 Responsive for desktop, laptop, and mobile
 - 💡 Showcases my projects, skills, and contact info
 
-# Future Improvements 🔮
+## 🔮 Future Improvements 
 - 💡 Add a dark mode toggle
 
 ## 📌 Sections
