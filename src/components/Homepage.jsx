@@ -5,68 +5,75 @@ const Homepage = () => {
   return (
     <>
       <body>
-        <div className="container-1">
-          <div className="nav-bar">
-            <h1 className="name">Denyce Galler</h1>
-            <a href="#about-me">About me</a>
-            <a href="#projects">Projects</a>
-            <a href="">CV</a>
-            <a href="https://www.linkedin.com/in/denyce-galler-8a620a229/">
-              Linkedin
-            </a>
-            <a href="https://github.com/denyce-galler">Github</a>
-          </div>
+        <div className="nav-bar">
+          <h1 className="name">Denyce Galler</h1>
+          <a href="#about-me" className="a-nav-bar">
+            About me
+          </a>
+          <a href="#projects" className="a-nav-bar">
+            Projects
+          </a>
+          <a href="" className="a-nav-bar">
+            CV
+          </a>
+          <a
+            href="https://www.linkedin.com/in/denyce-galler-8a620a229/"
+            className="a-nav-bar"
+          >
+            Linkedin
+          </a>
+          <a href="https://github.com/denyce-galler" className="a-nav-bar">
+            Github
+          </a>
         </div>
         <div className="container-2">
           <p className="welcome">Welcome to my</p>
           <p className="portfolio">portfolio</p>
         </div>
-        <div className="container-3">
-          <div className="container-4">
-            <img
-              src="/IMG_6671.jpg"
-              alt="Me in Switzerland"
-              width="500"
-              height="800"
-              className="display-picture"
-            />
-            <div className="container-5">
-              <div className="container-6">
-                <h1 id="about-me">HI!</h1>
-                <h1 className="greeting"> nice to meet you.</h1>
-              </div>
-              <p className="about-me-p">
-                <br />
-                I'm Denyce and I am a Graduate Software Developer.
-                <br />
-                <br />
-                I began my career in tech as a Graduate Software Developer for
-                New Zealand Customs almost 2 years ago.
-                <br />
-                <br />
-                Prior to working at my current role, I was a Registered Nurse,
-                with a working background in Mental Health and GP Nursing. This
-                career transition was made possible after my completion of a New
-                Zealand Certificate in Applied Software Development at Dev
-                Academy,
-                <br />
-                <br />
-                The impact of technology has been more apparent these recent
-                years as many technological advancements have become more
-                accessible to us. Observing this, alongside having close friends
-                and family working in technology (who create & support a lot of
-                cool products), has inspired me to question myself: how cool
-                would it be if I got to contribute to this too?
-                <br />
-                <br />
-              </p>
+        <div className="container-4">
+          <img
+            src="/IMG_6671.jpg"
+            alt="Me in Switzerland"
+            width="500"
+            height="800"
+            className="display-picture"
+          />
+          <div className="container-5">
+            <div className="container-6">
+              <h1 id="about-me">HI!</h1>
+              <h1 className="greeting"> nice to meet you.</h1>
             </div>
+            <p className="about-me-p">
+              <br />
+              I'm Denyce and I am a Graduate Software Developer.
+              <br />
+              <br />
+              I began my career in tech as a Graduate Software Developer for New
+              Zealand Customs almost 2 years ago.
+              <br />
+              <br />
+              Prior to working at my current role, I was a Registered Nurse,
+              with a working background in Mental Health and GP Nursing. This
+              career transition was made possible after my completion of a New
+              Zealand Certificate in Applied Software Development at Dev
+              Academy,
+              <br />
+              <br />
+              The impact of technology has been more apparent these recent years
+              as many technological advancements have become more accessible to
+              us. Observing this, alongside having close friends and family
+              working in technology (who create & support a lot of cool
+              products), has inspired me to question myself: how cool would it
+              be if I got to contribute to this too?
+              <br />
+              <br />
+            </p>
           </div>
-          <p className="prompt">
-            I am now based in 📍Melbourne Australia, and I am looking for my
-            next role as a Junior Developer.
-          </p>
         </div>
+        <p className="prompt">
+          I am now based in 📍Melbourne Australia, and I am looking for my next
+          role as a Junior Developer.
+        </p>
         <div className="container-7">
           <h1 className="dark-background-h1">My Current Technology Stack:</h1>
           <ul className="tech-stack">
@@ -218,7 +225,7 @@ const Homepage = () => {
               <li>Group project from Dev Academy</li>
               <li>Pomodoro timer - made for studying.</li>
               <li>
-                See source code
+                See source code {''}
                 <a
                   href="https://github.com/whai-2023/Pocket-Doro"
                   className="project-links"
@@ -227,12 +234,12 @@ const Homepage = () => {
                 </a>
               </li>
               <li>
-                Watch a video of the app or watch it
+                Watch a video of the app or watch it {''}
                 <a
                   href="https://www.youtube.com/watch?v=OWKpgauWFA4"
                   className="project-links"
                 >
-                  here
+                  here {''}
                 </a>
                 for the demo of the app
               </li>
@@ -277,10 +284,10 @@ const Homepage = () => {
                 <li>Website design made with Figma</li>
                 <li>
                   Recipe Book - made for storing recipes you've made that you
-                  love to keep making!
+                  love to <br /> keep making!
                 </li>
                 <li>
-                  See source code
+                  See source code {''}
                   <a
                     href="https://github.com/denyce-galler/Recipe-Book"
                     className="project-links"
